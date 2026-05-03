@@ -92,6 +92,7 @@
     "BatchMaxNodes": null,
     "BatchMaxSize": null,
     "CidVersion": null,
+    "FastProvideDAG": null,
     "FastProvideRoot": null,
     "FastProvideWait": null,
     "HashFunction": null,
@@ -115,10 +116,12 @@
   },
   "Migration": {},
   "Mounts": {
-    "FuseAllowOther": false,
+    "FuseAllowOther": null,
     "IPFS": "/ipfs",
     "IPNS": "/ipns",
-    "MFS": "/mfs"
+    "MFS": "/mfs",
+    "StoreMode": null,
+    "StoreMtime": null
   },
   "Peering": {
     "Peers": null
